@@ -37,6 +37,8 @@
 		7CE955DF1540C5CB0042A03A /* HVHierarchyScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE955D11540C5CB0042A03A /* HVHierarchyScanner.m */; };
 		D91F9C151888A5DC00206104 /* HVAutostarter.h in Headers */ = {isa = PBXBuildFile; fileRef = D91F9C131888A5DC00206104 /* HVAutostarter.h */; };
 		D91F9C161888A5DC00206104 /* HVAutostarter.m in Sources */ = {isa = PBXBuildFile; fileRef = D91F9C141888A5DC00206104 /* HVAutostarter.m */; };
+		D959DED418A3ECB800766A1C /* HVFilesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D959DED218A3ECB800766A1C /* HVFilesHandler.h */; };
+		D959DED518A3ECB800766A1C /* HVFilesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D959DED318A3ECB800766A1C /* HVFilesHandler.m */; };
 		D98A2ABB1898657200C8237E /* NSObject+PropertyUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D98A2AB91898657200C8237E /* NSObject+PropertyUtil.h */; };
 		D98A2ABC1898657200C8237E /* NSObject+PropertyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D98A2ABA1898657200C8237E /* NSObject+PropertyUtil.m */; };
 /* End PBXBuildFile section */
@@ -79,6 +81,8 @@
 		7CE955D11540C5CB0042A03A /* HVHierarchyScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVHierarchyScanner.m; sourceTree = "<group>"; };
 		D91F9C131888A5DC00206104 /* HVAutostarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVAutostarter.h; sourceTree = "<group>"; };
 		D91F9C141888A5DC00206104 /* HVAutostarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVAutostarter.m; sourceTree = "<group>"; };
+		D959DED218A3ECB800766A1C /* HVFilesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVFilesHandler.h; sourceTree = "<group>"; };
+		D959DED318A3ECB800766A1C /* HVFilesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVFilesHandler.m; sourceTree = "<group>"; };
 		D98A2AB91898657200C8237E /* NSObject+PropertyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyUtil.h"; sourceTree = "<group>"; };
 		D98A2ABA1898657200C8237E /* NSObject+PropertyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +180,8 @@
 				7CB3BD61158A44CF0001D338 /* HVStaticFileHandler.m */,
 				7CE2ED1215E40CDE00684792 /* HVCoreDataHandler.h */,
 				7CE2ED1315E40CDE00684792 /* HVCoreDataHandler.m */,
+				D959DED218A3ECB800766A1C /* HVFilesHandler.h */,
+				D959DED318A3ECB800766A1C /* HVFilesHandler.m */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D959DED418A3ECB800766A1C /* HVFilesHandler.h in Headers */,
 				7C861E5C153DF33A00935C95 /* iOSHierarchyViewer.h in Headers */,
 				7CE955DE1540C5CB0042A03A /* HVHierarchyScanner.h in Headers */,
 				7CB3BD66158A44CF0001D338 /* HVHierarchyHandler.h in Headers */,
@@ -301,6 +308,7 @@
 				7CB3BD6D158A44CF0001D338 /* HVPropertyEditorHandler.m in Sources */,
 				7CB3BD6F158A44CF0001D338 /* HVStaticFileHandler.m in Sources */,
 				D98A2ABC1898657200C8237E /* NSObject+PropertyUtil.m in Sources */,
+				D959DED518A3ECB800766A1C /* HVFilesHandler.m in Sources */,
 				7CB3BD71158A44CF0001D338 /* HVBaseRequestHandler.m in Sources */,
 				7CB3BD73158A44CF0001D338 /* HVHTTPServer.m in Sources */,
 				7CE2ED1515E40CDE00684792 /* HVCoreDataHandler.m in Sources */,

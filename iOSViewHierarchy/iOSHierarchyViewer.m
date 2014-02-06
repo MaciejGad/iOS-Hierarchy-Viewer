@@ -18,12 +18,14 @@
 #import "HVBase64StaticFile.h"
 #import "HVPropertyEditorHandler.h"
 #import "HVCoreDataHandler.h"
+#import "HVFilesHandler.h"
 
 #import "webapp_index_ui.h"
 #import "webapp_index_core.h"
 #import "webapp_navbar.h"
 #import "webapp_jquery.h"
 #import "webapp_style.h"
+
 
 @implementation iOSHierarchyViewer
 
@@ -64,6 +66,7 @@ static HVCoreDataHandler *coreDataHandler = nil;
   [server registerHandler:[HVBase64StaticFile handler:WEBAPP_STYLE] forUrl:@"/style.css"];
   [server registerHandler:[HVPreviewHandler handler] forUrl:@"/preview"];
   [server registerHandler:[HVPropertyEditorHandler handler] forUrl:@"/update"];
+  [server registerHandler:[HVFilesHandler handler] forUrl:@"/files"];
   coreDataHandler = [[HVCoreDataHandler handler] retain];
   [server registerHandler:coreDataHandler forUrl:@"/core"];
   if ([server start:IOS_HIERARCHY_VIEWER_PORT]) {
