@@ -1,9 +1,12 @@
-iOS-Hierarchy-Viewer (with new Core Data viewer)
+iOS Hierarchy Viewer for UI and CoreData
 ====================
 
-iOS Hierarchy Viewer allows developers to debug their user interfaces. If there are problems with layout calculations, it will catch them by giving a real time preview of the UIViews hierarchy.
+iOS Hierarchy Viewer allows developers to debug their hierarchies for both UIView's and CoreData models. 
+- If there are problems with layout calculations, you can find them with ease by introspecting real-time preview of your views inside a browser.
+- If your data is behaving weirdly, you can easily navigate through it via a browser.
+- This tool predates commercial tools like Reveal and Spark Inspector, and it's available for free.
 
-**iOS Hierarchy Viewer (since 1.4.6 version) gives preview of data if you use Core Data API in your project. See 'Instruction' section to start with it.**
+**since 1.4.6 version, we also give you debugging Core Data API in your project (if you use it). See 'Instruction' section to set it up.**
 
 ![](http://i.stack.imgur.com/ynqvG.png)
 ![](http://dl.dropbox.com/u/858551/core_data.png)
@@ -65,18 +68,23 @@ Version 1.4:
 + Accesibility labels are used when set, making it easier to read hierarchy
 + All scaning now takes place on main thread.
 
-Roadmap:
+Roadmap and Contributing:
 ====================
-Version 1.5:
 - Coloring non-opaque and misaligned view's similar to CoreAnimation instruments
 - Selected views from HTML side highlight in tree navigator
-
-Version 1.6:
 - Support for cocos2d nodes visualisation and debugging
 
-Contributing:
-====================
 Did you find a bug ? Do you have feature request ? Do you want to merge a feature ?
 Send us a pull request or add an issue in the tracker!
 
 [LIB]: https://github.com/glock45/iOS-Hierarchy-Viewer/releases
+
+License
+====================
+MIT. Full license in LICENSE.txt file.
+
+Authors:
+====================
+[Damian Kołakowski](https://twitter.com/kolakowski)
+
+[Krzysztof Zabłocki](http://twitter.com/merowing_)
